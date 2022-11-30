@@ -13,8 +13,10 @@ function Tabs() {
 
   return (
     <div>
-      <h1>Experience</h1>
-      <div>
+      <h1 className="text-center text-white text-2xl sm:text-4xl font-bold">
+        Experience
+      </h1>
+      <div className="mt-14 flex text-white">
         <Companies />
         <Tab />
       </div>
